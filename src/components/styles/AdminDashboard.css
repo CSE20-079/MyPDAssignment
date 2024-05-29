@@ -1,0 +1,56 @@
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #FF9A8B 10%, #FF6A88 100%);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.admin-dashboard h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.user-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.user-table th, .user-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.user-table th {
+    background: #FF5722;
+    color: #fff;
+}
+
+.user-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.user-table button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background: #FF5722;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.user-table button:hover {
+    background: #E64A19;
+}
